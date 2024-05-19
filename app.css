@@ -1,0 +1,11 @@
+/* Basic CSS for responsiveness */
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+.container { width: 80%; margin: auto; overflow: hidden; }
+header, footer { background: #333; color: #fff; padding: 20px 0; text-align: center; }
+nav { background: #555; color: #fff; padding: 15px 0; text-align: center; }
+nav a { color: #fff; text-decoration: none; padding: 0 15px; }
+.gallery { margin: 20px 0; }
+.gallery img { width: 100%; height: auto; }
+@media (min-width: 700px) {
+  .gallery img { width: 50%; }
+}
